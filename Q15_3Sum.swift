@@ -8,6 +8,7 @@
 import Foundation
 
 class ThreeSome {
+    // time: O(N^2), space: O(1)
     func threeSum(_ nums: [Int]) -> [[Int]] {
         var res = [[Int]]()
         guard nums.count >= 3 else { return res }

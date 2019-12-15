@@ -10,6 +10,7 @@
 		910E74C923A5B5020036F4E9 /* Q15_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q15_3Sum.swift; sourceTree = "<group>"; };
 		910E74CA23A5BF640036F4E9 /* Q125_ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q125_ValidPalindrome.swift; sourceTree = "<group>"; };
 		910E74CB23A5C4F10036F4E9 /* Q680_ValidPalindromeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q680_ValidPalindromeII.swift; sourceTree = "<group>"; };
+		910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q283_MoveZeroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -19,6 +20,7 @@
 				910E74C923A5B5020036F4E9 /* Q15_3Sum.swift */,
 				910E74CA23A5BF640036F4E9 /* Q125_ValidPalindrome.swift */,
 				910E74CB23A5C4F10036F4E9 /* Q680_ValidPalindromeII.swift */,
+				910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */,
 			);
 			sourceTree = "<group>";
 		};

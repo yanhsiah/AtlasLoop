@@ -8,6 +8,7 @@
 import Foundation
 
 class ValidPalindrome {
+    // time: O(N), space: O(N)
     func isPalindrome(_ s: String) -> Bool {
         var start = 0, end = s.count - 1
         let s = Array(s.lowercased())
