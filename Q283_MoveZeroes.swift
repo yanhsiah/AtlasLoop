@@ -14,7 +14,7 @@ class Solution {
         var j = 0
         for i in 0..<nums.count {
             if nums[i] != 0 {
-                nums.swap(i, j)
+                nums.swapAt(i, j)
                 j += 1
             }
         }
