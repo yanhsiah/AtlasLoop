@@ -8,6 +8,7 @@
 import Foundation
 
 class BinaryTreeMaxPathSum {
+    // time: O(N), space: O(H)
     func maxPathSum(_ root: TreeNode?) -> Int {
         var res = Int.min
         maxGain(root, &res)

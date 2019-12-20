@@ -8,6 +8,24 @@
 import Foundation
 
 class Solution {
+    // DFS
+    // time: O(N), space: O(H)
+    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+        var res = [[Int]]()
+        guard let root = root else { return res }
+        
+        dfs(root, 0, &res)
+        return res
+    }
+    func dfs(_ node: TreeNode, _ depth: Int, _ res: inout [[Int]]) {
+        if depth == res.count { res.append([]) }
+        res[depth].append(node.val)
+        if let left = node.left { dfs(left, depth + 1, &res) }
+        if let right = node.right { dfs(right, depth + 1, &res) }
+    }
+
+    // BFS
+    // time: O(N), space: O(N)
     func levelOrder(_ root: TreeNode?) -> [[Int]] {
         var res = [[Int]]()
         guard let root = root else { return res }
@@ -30,7 +48,6 @@ class Solution {
 
         // Q107
         // res.reverse()
-
         return res
     }
 }
