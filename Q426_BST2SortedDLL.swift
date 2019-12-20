@@ -7,17 +7,6 @@
 
 import Foundation
 
-class TreeNode {
-    var val: Int
-    var left: TreeNode?
-    var right: TreeNode?
-    init(_ val: Int) {
-        self.val = val
-        self.left = nil
-        self.right = nil
-    }
-}
-
 class BST2SortedDLL {
     // Inorder traversal
     // time: O(N), space: O(1)
