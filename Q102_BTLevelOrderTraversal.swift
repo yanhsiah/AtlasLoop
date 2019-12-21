@@ -51,3 +51,13 @@ class Solution {
         return res
     }
 }
+
+// https://gist.github.com/SheldonWangRJT/791c85749051cf4b63b1590f08143156
+flatMap:    [Optional(TreeNode.TreeNode), Optional(TreeNode.TreeNode)]
+compactMap: [TreeNode.TreeNode, TreeNode.TreeNode]
+
+flatMap:    [nil, nil, Optional(TreeNode.TreeNode), Optional(TreeNode.TreeNode)]
+compactMap: [TreeNode.TreeNode, TreeNode.TreeNode]
+
+flatMap:    [nil, nil, nil, nil]
+compactMap: []
