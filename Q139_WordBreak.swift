@@ -8,12 +8,12 @@
 import Foundation
 
 class Solution {
-    /*
+    // W: length of each word used in String(s[start..<end])
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         return dfs(Array(s), Set<String>(wordDict), 0)
     }
     
-    // time: O(N^N), space: O(N)
+    // time: O(N^N * W), space: O(N)
     func dfs(_ s: [Character], _ words: Set<String>, _ start: Int) -> Bool {
         if start == s.count { return true }
         for len in 1...s.count-start {
@@ -24,7 +24,7 @@ class Solution {
         return false
     }
     
-    // time: O(N^2), space: O(N)
+    // time: O(N^2 * W), space: O(N)
     var cache = [Int: Bool]()
     func dfs(_ s: [Character], _ words: Set<String>, _ start: Int) -> Bool {
         if start == s.count { return true }
@@ -39,10 +39,8 @@ class Solution {
         cache[start] = res
         return res
     }
-    */
     
     // dp[i] = true if a valid word ends before it
-    // W: length of each word used in String(s[j..<i]
     // time: O(N^2 * W), space: O(N)
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         let s = Array(s)

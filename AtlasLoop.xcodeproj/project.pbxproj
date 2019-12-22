@@ -53,6 +53,7 @@
 		91DC087223AF70F300E934E5 /* Q636_ExclusiveTimeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q636_ExclusiveTimeFunctions.swift; sourceTree = "<group>"; };
 		91DC087323AF715000E934E5 /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
 		91DC087423B02A5D00E934E5 /* Q139_WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q139_WordBreak.swift; sourceTree = "<group>"; };
+		91DC087523B02E9B00E934E5 /* Q140_WordBreakII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q140_WordBreakII.swift; sourceTree = "<group>"; };
 		91FE3D7C23A5F22700849151 /* Q301_RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q301_RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		91FE3D7D23A5F62F00849151 /* Q67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q67_AddBinary.swift; sourceTree = "<group>"; };
 		91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1_TwoSum.swift; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 				91DC086C23AF4B4B00E934E5 /* Q785_GraphBipartite.swift */,
 				91DC087423B02A5D00E934E5 /* Q139_WordBreak.swift */,
 				91DC087323AF715000E934E5 /* Others.swift */,
+				91DC087523B02E9B00E934E5 /* Q140_WordBreakII.swift */,
 				910E74C923A5B5020036F4E9 /* Q15_3Sum.swift */,
 				910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */,
 				91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */,
