@@ -51,6 +51,7 @@
 		91DC087023AF689F00E934E5 /* Q173_BSTIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q173_BSTIterator.swift; sourceTree = "<group>"; };
 		91DC087123AF6C4B00E934E5 /* Q65_ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q65_ValidNumber.swift; sourceTree = "<group>"; };
 		91DC087223AF70F300E934E5 /* Q636_ExclusiveTimeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q636_ExclusiveTimeFunctions.swift; sourceTree = "<group>"; };
+		91DC087323AF715000E934E5 /* Others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Others.swift; sourceTree = "<group>"; };
 		91FE3D7C23A5F22700849151 /* Q301_RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q301_RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		91FE3D7D23A5F62F00849151 /* Q67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q67_AddBinary.swift; sourceTree = "<group>"; };
 		91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1_TwoSum.swift; sourceTree = "<group>"; };
@@ -85,6 +86,9 @@
 				91DC087023AF689F00E934E5 /* Q173_BSTIterator.swift */,
 				91DC087123AF6C4B00E934E5 /* Q65_ValidNumber.swift */,
 				91DC087223AF70F300E934E5 /* Q636_ExclusiveTimeFunctions.swift */,
+				91DC086B23AF47F000E934E5 /* Q340_LongestSubstrKChars.swift */,
+				91DC086C23AF4B4B00E934E5 /* Q785_GraphBipartite.swift */,
+				91DC087323AF715000E934E5 /* Others.swift */,
 				910E74C923A5B5020036F4E9 /* Q15_3Sum.swift */,
 				910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */,
 				91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */,
@@ -94,7 +98,6 @@
 				91DC085023A8D55000E934E5 /* Q200_NumberOfIslands.swift */,
 				91DC085223AA02A200E934E5 /* Q78_Subsets.swift */,
 				91DC086223ADC22700E934E5 /* CharString.swift */,
-				91DC086B23AF47F000E934E5 /* Q340_LongestSubstrKChars.swift */,
 				91DC086E23AF635300E934E5 /* BinarySearch.swift */,
 				91DC086F23AF636400E934E5 /* Q540_SingleElement.swift */,
 				91DC086423AED98F00E934E5 /* LinkedList.swift */,
@@ -106,7 +109,6 @@
 				91DC086123ADA1D900E934E5 /* Q428_SerializeNTree.swift */,
 				91DC086A23AF3B5E00E934E5 /* Q208_ImplementTrie.swift */,
 				91DC086D23AF4B7400E934E5 /* Graph.swift */,
-				91DC086C23AF4B4B00E934E5 /* Q785_GraphBipartite.swift */,
 			);
 			sourceTree = "<group>";
 		};
