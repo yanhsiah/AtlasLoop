@@ -40,6 +40,7 @@
 		91DC086523AF0DD700E934E5 /* Q146_LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q146_LRUCache.swift; sourceTree = "<group>"; };
 		91DC086623AF0E8900E934E5 /* Q460_LFUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q460_LFUCache.swift; sourceTree = "<group>"; };
 		91DC086723AF18E800E934E5 /* Q438_FindAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q438_FindAnagrams.swift; sourceTree = "<group>"; };
+		91DC086823AF2CC700E934E5 /* Q199_BTRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q199_BTRightView.swift; sourceTree = "<group>"; };
 		91FE3D7C23A5F22700849151 /* Q301_RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q301_RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		91FE3D7D23A5F62F00849151 /* Q67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q67_AddBinary.swift; sourceTree = "<group>"; };
 		91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1_TwoSum.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				91DC085C23AD6A0600E934E5 /* Q523_ContinuousSubarraySum.swift */,
 				91DC085F23AD91D200E934E5 /* Tree.swift */,
 				91DC085E23AD919C00E934E5 /* Q102_BTLevelOrderTraversal.swift */,
+				91DC086823AF2CC700E934E5 /* Q199_BTRightView.swift */,
 				91DC086023AD97F000E934E5 /* Q297_SerializeBT.swift */,
 				91DC086123ADA1D900E934E5 /* Q428_SerializeNTree.swift */,
 				91DC085B23ACCC2B00E934E5 /* Q124_BinaryTreeMaxPathSum.swift */,
