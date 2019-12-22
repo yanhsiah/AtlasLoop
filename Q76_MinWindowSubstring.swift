@@ -24,7 +24,6 @@ class MinWindowSubstring {
             if counts[s[end]] > 0 { match += 1 }
             counts[s[end]] -= 1
             end += 1
-            
             while match == t.count {
                 if end - start < len {
                     len = end - start
