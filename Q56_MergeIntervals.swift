@@ -15,10 +15,7 @@ class MergeIntervals {
         var res = [intervals[0]]
         
         for interval in intervals {
-            guard let last = res.last else {
-                res.append(interval)
-                continue
-            }
+            guard let last = res.last else { continue }
             if interval[0] > last[1] {
                 res.append(interval)
             } else {
