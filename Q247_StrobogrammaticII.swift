@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution {
+class StrobogrammaticII {
     
     // time: O(5^(N/2))
     // space: O(N), recursion, not consider output space
