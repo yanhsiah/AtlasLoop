@@ -11,11 +11,11 @@ class KClosestPointsOrigin {
     func kClosest(_ points: [[Int]], _ K: Int) -> [[Int]] {
         var points = points
         var start = 0, end = points.count - 1
-        while true {
-            let ptr = partition(&points, start, end)
-            if ptr == K - 1 { break }
-            if ptr < K - 1 { start = ptr + 1 }
-            else { end = ptr - 1 }
+        while start <= end {
+            let m = partition(&points, start, end)
+            if m == K - 1 { break }
+            if m < K - 1 { start = m + 1 }
+            else { end = m - 1 }
         }
         return Array(points[0..<K])
     }
