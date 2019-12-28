@@ -62,4 +62,31 @@ class LongestPalindromicSubseq {
         // return dp[n-1]
     }
     */
+    
+    
+    // LPS = LCS(s, String(s.reversed()))
+    /*
+    func longestPalindromeSubseq(_ s: String) -> Int {
+        return LCS(s, String(s.reversed()))
+    }
+    // 1143
+    func LCS(_ text1: String, _ text2: String) -> Int {
+        if text1.count < text2.count { return LCS(text2, text1) }
+        let s1 = Array(text1), s2 = Array(text2)
+        let m = s1.count, n = s2.count
+        var dp = Array(repeating: 0, count: n+1)
+        for i in 1...m {
+            var ndp = Array(repeating: 0, count: n+1)
+            for j in 1...n {
+                if s1[i-1] == s2[j-1] {
+                    ndp[j] = dp[j-1] + 1
+                } else {
+                    ndp[j] = max(dp[j], ndp[j-1])
+                }
+            }
+            swap(&ndp, &dp)
+        }
+        return dp[n]
+    }
+     */
 }
