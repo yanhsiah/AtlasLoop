@@ -7,7 +7,9 @@
 
 import Foundation
 
-class Solution {
+// 140
+
+class WordBreak {
     // W: length of each word used in String(s[start..<end])
     func wordBreak(_ s: String, _ wordDict: [String]) -> Bool {
         return dfs(Array(s), Set<String>(wordDict), 0)
