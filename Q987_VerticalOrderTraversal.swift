@@ -7,8 +7,12 @@
 
 import Foundation
 
-class Solution {
+// 314
+
+class VerticalOrderTraversal {
     
+    // If two nodes have the same position, the value of the node
+    // that is reported first is the value that is smaller.
     // time: O(NlogN), space: O(N)
     typealias Cache = [Int: [Int: [Int]]]
     func verticalTraversal(_ root: TreeNode?) -> [[Int]] {
