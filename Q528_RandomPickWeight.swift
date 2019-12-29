@@ -7,6 +7,29 @@
 
 import Foundation
 
+extension Array where Element == Int {
+    // return Index of the first element >= target
+    func lowerBound(_ target: Int) -> Int {
+        var start = 0, end = self.count - 1
+        while start < end {
+            let m = start + (end - start) / 2
+            if self[m] < target { start = m + 1 }
+            else { end = m }
+        }
+        return start
+    }
+    // return Index of the first element > target
+    func upperBound(_ target: Int) -> Int {
+        var start = 0, end = self.count - 1
+        while start < end {
+            let m = start + (end - start) / 2
+            if self[m] <= target { start = m + 1 }
+            else { end = m }
+        }
+        return start
+    }
+}
+
 class RandomPickWeight {
 
     // pick with weight: [1,2,4,3]
@@ -22,17 +45,8 @@ class RandomPickWeight {
     }
 
     func pickIndex() -> Int {
-        return findInsertPos(sums, Int.random(in: 1...sums.last!))
-    }
-
-    func findInsertPos(_ nums: [Int], _ target: Int) -> Int {
-        var start = 0, end = nums.count - 1
-        while start < end {
-            let m = start + (end - start) / 2
-            if nums[m] < target { start = m + 1 }
-            else { end = m }
-        }
-        return start
+        return sums.lowerBound(Int.random(in: 1...sums.last!))
+        // return sums.upperBound(Int.random(in: 0...sums.last! - 1))
     }
 }
 
