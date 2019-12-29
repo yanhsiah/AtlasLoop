@@ -7,6 +7,8 @@
 
 import Foundation
 
+// 207
+
 class AlienDictionary {
     // N: # words, L: word length
     // time: O(NL), space: O(L)
@@ -28,19 +30,16 @@ class AlienDictionary {
         var seen = [Character: Bool]()
         func dfs(_ c: Character) -> Bool {
             if let hasSeen = seen[c] { return hasSeen }
+
             seen[c] = false
-            for nbr in graph[c] ?? [] {
-                if !dfs(nbr) { return false }
-            }
+            for nbr in graph[c, default: []] where !dfs(nbr) { return false }
             seen[c] = true
             order.append(c)
             return true
         }
         
         for word in words {
-            for c in Array(word) {
-                if !dfs(c) { return "" }
-            }
+            for c in word where !dfs(c) { return "" }
         }
         return String(order.reversed())
         
@@ -68,7 +67,7 @@ class AlienDictionary {
             var nq = [Character]()
             for node in q {
                 res.append(node)
-                for nbr in graph[node] ?? [] {
+                for nbr in graph[node, default: []] {
                     indegrees[nbr]! -= 1
                     if indegrees[nbr]! == 0 { nq.append(nbr) }
                 }
