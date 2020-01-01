@@ -119,6 +119,8 @@
 		91DC08B523B92D7B00E934E5 /* Q212_WordSearchII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q212_WordSearchII.swift; sourceTree = "<group>"; };
 		91DC08B623B9395800E934E5 /* Q207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q207_CourseSchedule.swift; sourceTree = "<group>"; };
 		91DC08B723B93DBE00E934E5 /* Q210_CourseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q210_CourseScheduleII.swift; sourceTree = "<group>"; };
+		91DC08B823BC5A6900E934E5 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		91DC08BA23BD5F5E00E934E5 /* Q295_MedianFromDataStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q295_MedianFromDataStream.swift; sourceTree = "<group>"; };
 		91FE3D7C23A5F22700849151 /* Q301_RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q301_RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		91FE3D7D23A5F62F00849151 /* Q67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q67_AddBinary.swift; sourceTree = "<group>"; };
 		91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1_TwoSum.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				91DC08B523B92D7B00E934E5 /* Q212_WordSearchII.swift */,
 				91DC08B623B9395800E934E5 /* Q207_CourseSchedule.swift */,
 				91DC08B723B93DBE00E934E5 /* Q210_CourseScheduleII.swift */,
+				91DC08BA23BD5F5E00E934E5 /* Q295_MedianFromDataStream.swift */,
 				91DC087323AF715000E934E5 /* Others.swift */,
 				91DC08B323B9208F00E934E5 /* Q41_FirstMissingPositive.swift */,
 				910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */,
@@ -243,6 +246,7 @@
 				91DC086123ADA1D900E934E5 /* Q428_SerializeNTree.swift */,
 				91DC086A23AF3B5E00E934E5 /* Q208_ImplementTrie.swift */,
 				91DC086D23AF4B7400E934E5 /* Graph.swift */,
+				91DC08B823BC5A6900E934E5 /* Heap.swift */,
 			);
 			sourceTree = "<group>";
 		};
