@@ -136,6 +136,7 @@
 		91DC08C723BDCEAA00E934E5 /* Q14_LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14_LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		91DC08C823BDD04500E934E5 /* Q1213_Intersection3SortedArrs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1213_Intersection3SortedArrs.swift; sourceTree = "<group>"; };
 		91DC08C923BDE5A400E934E5 /* Q549_BTLongestConsecutiveSeqII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q549_BTLongestConsecutiveSeqII.swift; sourceTree = "<group>"; };
+		91DC08CA23BDED4A00E934E5 /* Q317_ShortestDistAllBuildings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q317_ShortestDistAllBuildings.swift; sourceTree = "<group>"; };
 		91FE3D7C23A5F22700849151 /* Q301_RemoveInvalidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q301_RemoveInvalidParentheses.swift; sourceTree = "<group>"; };
 		91FE3D7D23A5F62F00849151 /* Q67_AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q67_AddBinary.swift; sourceTree = "<group>"; };
 		91FE3D7E23A5F7BD00849151 /* Q1_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q1_TwoSum.swift; sourceTree = "<group>"; };
@@ -247,6 +248,7 @@
 				91DC08BA23BD5F5E00E934E5 /* Q295_MedianFromDataStream.swift */,
 				91DC08C823BDD04500E934E5 /* Q1213_Intersection3SortedArrs.swift */,
 				91DC08C923BDE5A400E934E5 /* Q549_BTLongestConsecutiveSeqII.swift */,
+				91DC08CA23BDED4A00E934E5 /* Q317_ShortestDistAllBuildings.swift */,
 				91DC087323AF715000E934E5 /* Others.swift */,
 				91DC08B323B9208F00E934E5 /* Q41_FirstMissingPositive.swift */,
 				910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */,
