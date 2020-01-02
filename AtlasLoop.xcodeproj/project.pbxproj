@@ -16,6 +16,7 @@
 		917B55EA23A72FD200B9DEBA /* Q23_MergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q23_MergeKSortedLists.swift; sourceTree = "<group>"; };
 		917B55EB23A7356400B9DEBA /* Q206_ReverseLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q206_ReverseLinkedList.swift; sourceTree = "<group>"; };
 		917B55EC23A73F8900B9DEBA /* Q56_MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q56_MergeIntervals.swift; sourceTree = "<group>"; };
+		91BE74B823BE934C008CB421 /* Q568_MaxVacationDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q568_MaxVacationDays.swift; sourceTree = "<group>"; };
 		91DC085023A8D55000E934E5 /* Q200_NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q200_NumberOfIslands.swift; sourceTree = "<group>"; };
 		91DC085123A8D66300E934E5 /* Q282_ExpressionAddOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q282_ExpressionAddOperators.swift; sourceTree = "<group>"; };
 		91DC085223AA02A200E934E5 /* Q78_Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q78_Subsets.swift; sourceTree = "<group>"; };
@@ -241,6 +242,7 @@
 				91DC08C423BDC01500E934E5 /* Q921_MinAddParentheses.swift */,
 				91DC08C523BDC43500E934E5 /* Q111_MinDepthBT.swift */,
 				91DC08C623BDC8EB00E934E5 /* Q91_DecodeWays.swift */,
+				91BE74B823BE934C008CB421 /* Q568_MaxVacationDays.swift */,
 				91DC08B423B9246500E934E5 /* Q79_WordSearch.swift */,
 				91DC08B523B92D7B00E934E5 /* Q212_WordSearchII.swift */,
 				91DC08B623B9395800E934E5 /* Q207_CourseSchedule.swift */,
