@@ -18,7 +18,7 @@ extension Array where Element == Int {
         }
         return start
     }
-    // return Index of the first element > target
+    // return Index of the last element >= target
     func upperBound(_ target: Int) -> Int {
         var start = 0, end = self.count - 1
         while start < end {
