@@ -21,22 +21,19 @@ class PhoneNumber {
         "9": ["w", "x", "y", "z"]
     ]
     func letterCombinations(_ digits: String) -> [String] {
-        var res = [String]()
-        var digits = Array(digits)
+        if digits.isEmpty { return [] }
+
+        var res: [String] = [""]
         for d in digits {
             guard let strs = dict[d] else { break }
 
-            if res.count == 0 {
-                res = strs
-                continue
-            }
-            var newCombs = [String]()
-            for str1 in res {
-                for str2 in strs {
-                    newCombs.append(str1 + str2)
+            var combs = [String]()
+            for s1 in res {
+                for s2 in strs {
+                    combs.append(s1 + s2)
                 }
             }
-            res = newCombs
+            swap(&res, &combs)
         }
         return res
     }
