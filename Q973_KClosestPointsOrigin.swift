@@ -8,6 +8,7 @@
 import Foundation
 
 class KClosestPointsOrigin {
+    // time: O(NlogK), space: O(1)
     func kClosest(_ points: [[Int]], _ K: Int) -> [[Int]] {
         var points = points
         var start = 0, end = points.count - 1

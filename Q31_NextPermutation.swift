@@ -8,6 +8,8 @@
 import Foundation
 
 class NextPermutation {
+    
+    // time: O(N), space: O(1)
     // 1 2 [35] 4
     // 1 2 [4] 5 [3]
     // 1 2 4 [35]

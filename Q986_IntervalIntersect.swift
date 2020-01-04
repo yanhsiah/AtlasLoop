@@ -8,6 +8,7 @@
 import Foundation
 
 class IntervalIntersect {
+    // time: O(A + B), space: O(1)
     func intervalIntersection(_ A: [[Int]], _ B: [[Int]]) -> [[Int]] {
         var res = [[Int]]()
         var i = 0, j = 0

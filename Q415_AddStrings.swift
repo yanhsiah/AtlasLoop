@@ -8,6 +8,7 @@
 import Foundation
 
 class AddStrings {
+    // time & space: O(N1 + N2)
     func addStrings(_ num1: String, _ num2: String) -> String {
         let a = Array(num1), b = Array(num2)
         var res = ""

@@ -8,6 +8,7 @@
 import Foundation
 
 class VerifyingAlienDictionary {
+    // time: O(W * L), space: O(L)
     func isAlienSorted(_ words: [String], _ order: String) -> Bool {
         var dict = [Character: Int]()
         let order = Array(order)
