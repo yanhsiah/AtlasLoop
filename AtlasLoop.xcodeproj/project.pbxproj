@@ -24,6 +24,7 @@
 		91BE74BD23C09F51008CB421 /* Q249_GroupShiftedStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q249_GroupShiftedStrings.swift; sourceTree = "<group>"; };
 		91BE74BE23C11CDF008CB421 /* Q701_InsertBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q701_InsertBST.swift; sourceTree = "<group>"; };
 		91BE74BF23C123B9008CB421 /* Q450_DeleteBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q450_DeleteBST.swift; sourceTree = "<group>"; };
+		91BE74C023C12D55008CB421 /* Q969_PancakeSorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q969_PancakeSorting.swift; sourceTree = "<group>"; };
 		91DC085023A8D55000E934E5 /* Q200_NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q200_NumberOfIslands.swift; sourceTree = "<group>"; };
 		91DC085123A8D66300E934E5 /* Q282_ExpressionAddOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q282_ExpressionAddOperators.swift; sourceTree = "<group>"; };
 		91DC085223AA02A200E934E5 /* Q78_Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q78_Subsets.swift; sourceTree = "<group>"; };
@@ -253,6 +254,7 @@
 				91BE74BA23C06611008CB421 /* Q691_StickersSpellWord.swift */,
 				91BE74BD23C09F51008CB421 /* Q249_GroupShiftedStrings.swift */,
 				91BE74BB23C06FAC008CB421 /* Q339_NestedListWeightSum.swift */,
+				91BE74C023C12D55008CB421 /* Q969_PancakeSorting.swift */,
 				91DC08B423B9246500E934E5 /* Q79_WordSearch.swift */,
 				91DC08B523B92D7B00E934E5 /* Q212_WordSearchII.swift */,
 				91DC08B623B9395800E934E5 /* Q207_CourseSchedule.swift */,
