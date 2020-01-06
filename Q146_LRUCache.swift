@@ -17,7 +17,6 @@ class LRUCache {
     }
     class Keys {
         private let head = Node(0, 0), tail = Node(0, 0)
-        var isEmpty: Bool { return count == 0 }
         init() {
             head.next = tail
             tail.prev = head
@@ -35,7 +34,7 @@ class LRUCache {
             node.prev = nil
         }
         func removeLast() -> Node? {
-            guard !isEmpty, let node = tail.prev else { return nil }
+            guard let last = tail.prev, last !== head else { return nil }
             remove(node)
             return node
         }
