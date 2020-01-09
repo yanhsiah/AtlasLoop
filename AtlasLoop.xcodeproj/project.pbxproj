@@ -11,6 +11,7 @@
 		910E74CA23A5BF640036F4E9 /* Q125_ValidPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q125_ValidPalindrome.swift; sourceTree = "<group>"; };
 		910E74CB23A5C4F10036F4E9 /* Q680_ValidPalindromeII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q680_ValidPalindromeII.swift; sourceTree = "<group>"; };
 		910E74CC23A5C6A20036F4E9 /* Q283_MoveZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q283_MoveZeroes.swift; sourceTree = "<group>"; };
+		9142E31523C7267800180B72 /* 1007_MinDominoRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1007_MinDominoRotation.swift; sourceTree = "<group>"; };
 		917B55E823A7075E00B9DEBA /* Q257_BinaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q257_BinaryTreePaths.swift; sourceTree = "<group>"; };
 		917B55E923A719F400B9DEBA /* Q17_PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q17_PhoneNumber.swift; sourceTree = "<group>"; };
 		917B55EA23A72FD200B9DEBA /* Q23_MergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q23_MergeKSortedLists.swift; sourceTree = "<group>"; };
@@ -290,6 +291,7 @@
 				91BE74BC23C079BE008CB421 /* Q405_Num2Hex.swift */,
 				91BE74C823C1D377008CB421 /* Q51_NQueens.swift */,
 				91BE74C723C1962B008CB421 /* 37_SudokuSolver.swift */,
+				9142E31523C7267800180B72 /* 1007_MinDominoRotation.swift */,
 				91DC089723B577B500E934E5 /* SlidingWindow.swift */,
 				91DC089423B570CA00E934E5 /* Q1234_ReplaceForBalancedString.swift */,
 				91DC089523B5761E00E934E5 /* Q992_SubarrayKIntegers.swift */,
