@@ -28,7 +28,6 @@ class Heap {
     }
 
     func remove() -> Int {
-        guard !nums.isEmpty else { fatalError("Empty!") }
         let res = nums[0]
         nums.swapAt(0, nums.count - 1)
         nums.removeLast()
@@ -53,3 +52,36 @@ while !pq.isEmpty { print(pq.remove()) }
 // 3
 // 2
 // 1
+
+class Heap<T> {
+    private var items = [T]()
+    private let cmp: (T, T) -> Bool
+    init(_ cmp: @escaping (T, T) -> Bool) { self.cmp = cmp }
+    var count: Int { return items.count }
+    var first: T? { return items.first }
+    
+    func append(_ x: T) {
+        items.append(x)
+        var i = items.count - 1
+        while i != 0 {
+            let p = (i - 1) / 2
+            if cmp(items[p], items[i]) { break }
+            items.swapAt(p, i)
+            i = p
+        }
+    }
+    func remove() -> T {
+        let res = items[0]
+        items.swapAt(0, items.count - 1)
+        items.removeLast()
+        func heapify(_ i: Int) {
+            let l = 2 * i + 1, r = l + 1, n = items.count
+            var ptr = i
+            if l < n && cmp(items[l], items[ptr]) { ptr = l }
+            if r < n && cmp(items[r], items[ptr]) { ptr = r }
+            if ptr != i { items.swapAt(ptr, i); heapify(ptr) }
+        }
+        heapify(0)
+        return res
+    }
+}
