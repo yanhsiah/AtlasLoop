@@ -7,9 +7,13 @@
 
 import Foundation
 
+// 325 MaxSubarraySumK
+// 523 ContinuousSubarraySum
+// 525 ContiguousArray
+// 560 SubarraySumEqualsK
+
 class MaxSubarraySumK {
-    
-    // 560
+
     // time: O(N), space: O(N)
     func maxSubArrayLen(_ nums: [Int], _ k: Int) -> Int {
         var dict = [0: -1] // prefix sum: index

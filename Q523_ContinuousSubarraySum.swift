@@ -7,7 +7,13 @@
 
 import Foundation
 
+// 325 MaxSubarraySumK
+// 523 ContinuousSubarraySum
+// 525 ContiguousArray
+// 560 SubarraySumEqualsK
+
 class ContinuousSubarraySum {
+
     // time: O(N), space: O(N)
     func checkSubarraySum(_ nums: [Int], _ k: Int) -> Bool {
         var indexes = [0: -1]
