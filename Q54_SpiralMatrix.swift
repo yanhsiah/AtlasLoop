@@ -15,21 +15,20 @@ class SpiralMatrix {
         var res = [Int]()
         while r1 <= r2 && c1 <= c2 {
             for c in c1...c2 { res.append(matrix[r1][c]) }
-            
-            guard r1 != r2 else { break }
-            for r in r1 + 1...r2 { res.append(matrix[r][c2]) }
-
-            guard c1 != c2 else { break }
-            var c = c2 - 1
-            while c >= c1 { res.append(matrix[r2][c]); c -= 1 }
-            
-            var r = r2 - 1
-            while r > r1 { res.append(matrix[r][c1]); r -= 1 }
-            
             r1 += 1
-            r2 -= 1
-            c1 += 1
+            
+            guard r1 <= r2 else { break }
+            for r in r1...r2 { res.append(matrix[r][c2]) }
             c2 -= 1
+
+            guard c1 <= c2 else { break }
+            var c = c2
+            while c >= c1 { res.append(matrix[r2][c]); c -= 1 }
+            r2 -= 1
+            
+            var r = r2
+            while r >= r1 { res.append(matrix[r][c1]); r -= 1 }
+            c1 += 1
         }
         return res
     }
